@@ -7,26 +7,24 @@ window.onload = function() {
 }
 
 
-const primaryNav = document.getElementById("navigation");
-const displayButton = document.getElementById("showNavigation");
+const primaryNav = document.getElementById('navigation');
+const displayButton = document.getElementById('displayMenu');
 
-displayButton.addEventListener("click" , slideMenu);
+displayButton.addEventListener("click", slideMenu);
 
-function slideMenu(){
-    let visability = primaryNav.getAttribute("data-visable");
+function slideMenu() {
+    let visibility = primaryNav.getAttribute("data-visible");
 
-    if(visability === "false"){
-        primaryNav.setAttribute("data-visable", "true");
-        displayButton.setAttribute("data-visable", "true")
-
+    // if button is clicked, open the menu
+    if(visibility === "false") {
+        primaryNav.setAttribute("data-visible", "true");
+        displayButton.setAttribute("data-visible", "true");
     }
-    else{
-        primaryNav.setAttribute("data-visable", "false");
-        displayButton.setAttribute("data-visable", "false")
-
+    else {
+        primaryNav.setAttribute("data-visible", "false");
+        displayButton.setAttribute("data-visible", "false");
     }
 }
-
 
 
 
