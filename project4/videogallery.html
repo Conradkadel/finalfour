@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles/videogalery.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Baby Keem Video Gallerz</title>
+</head>
+<body>
+    <header>
+        <img src="images/aHR0cDovL2ltYWdlLmloZWFydC5jb20vaWhyLWluZ2VzdGlvbi1waXBlbGluZS1wcm9kdWN0aW9uLXNibWcvQTEwMzAxQTAwMDQ2NzI4MTNTXzIwMjEwOTIyMjIyNDA0MjgyLzY5MTYyMDgyLjIwMTI2LmpwZw==.webp" alt="">
+        <h2>BABY KEEM</h2>
+        <button id="showNaviagtion" data-visible=""></button>
+        <!-- <i onclick="showMenu()" id="hamburgericon" class="fa-solid fa-bars"></i>
+            <i onclick="closeMenu()" id="x-icon" class="fa-solid fa-xmark"></i> -->
+            <nav id="navigation" data-visible="false"></nav>
+            <nav id="navBar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pictures.html">Image Gallery</a></li>
+                    <li><a href="videogallery.html">Video Gallery</a></li>
+                    <li><a href="slideshow.html">Image Caroseal</a></li>
+                </ul>
+            </nav>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="#vid1">Video 1</a></li>
+            <li><a href="#vid2">Video 2</a></li>
+            <li><a href="#vid3">Video 3</a></li>
+            <li><a href="#vid4">Video 4</a></li>
+            <li><a href="#vid5">Video 5</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article id="vid1">
+            <h4>Video 1</h4>
+            <div class="videowrapper">
+                <iframe src="https://www.youtube.com/embed/sxk7EHUlbRE" title="Baby Keem: Influence of Kendrick Lamar, Childhood, and the Women in His Life | Apple Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="caption"></div>
+        </article>
+        <article id="vid2">
+            <h4>Video 2</h4>
+            <div class="videowrapper"><iframe src="https://www.youtube.com/embed/Kazv79E6Q20" title="Kendrick Lamar and Baby Keem - Family Ties/Vent/A Life Of Pain live at the O2 Arena 09/11/22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="caption"></div>
+        </article>
+        <article id="vid3">
+            <h4>Video 3</h4>
+            <div class="videowrapper"><iframe src="https://www.youtube.com/embed/N72BLEUiomE" title="Baby Keem On His Journey, His Relationship W/ Kendrick Lamar, Working W/ Drake + More | The Rap Pack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="caption"></div>
+        </article>
+        <article id="vid4">
+            <h4>Video 4</h4>
+            <div class="videowrapper"><iframe src="https://www.youtube.com/embed/0vKEu6-P1cI" title="LV&#39;s Own Baby Keem on his new album &quot;Melodic Blue,&quot; and His Studio Persona | DESUS &amp; MERO | SHOWTIME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="caption"></div>
+        </article>
+        <article id="vid5">
+            <h4>Video 5</h4>
+            <div class="videowrapper"><iframe src="https://www.youtube.com/embed/BQFU-mJdm0Y" title="The True History of Kendrick Lamar &amp; Baby Keem&#39;s Relationship" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+            <div class="caption"></div>
+        </article>
+        
+    
+    </main>
+    <div><button onclick="topFunction()" id="cornerBtn" title="Go to top"><i class="fa-regular fa-angle-up"></i></button></div>
+    <footer>
+        <p> &copy; <span id="copyright"></span> Conrad Kadel</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
